@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
     FileBrowser* fb = new FileBrowser;
 
     w.setCentralWidget(fb);
-    w.setWindowIcon(QIcon("adrenaline.png"));
+    w.setWindowIcon(QIcon("/usr/share/filebrowser/adrenaline.png"));
     w.resize(1024,768);
     w.show();
 
